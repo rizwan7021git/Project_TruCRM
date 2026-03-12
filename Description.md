@@ -34,3 +34,15 @@ This project solves that problem by building a **clean ETL pipeline and database
 ---
 
 # System Architecture
+
+Raw Lead Excel
+↓
+Python ETL Cleaning
+↓
+Staging Layer
+↓
+Normalized PostgreSQL Schema
+↓
+Supabase Backend
+↓
+CRM Application / Analytics
